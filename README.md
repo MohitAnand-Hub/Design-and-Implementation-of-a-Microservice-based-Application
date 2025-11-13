@@ -8,15 +8,6 @@ order-service → manages orders and communicates with product service
 Services communicate via HTTP REST.
 Each service runs on a separate port (e.g., 3001 and 3002)
 
-Backend Technologies
-Technology	            Purpose
-NestJS	                Node.js framework for structured backend development
-TypeScript	            Type safety and cleaner code
-Express (built-in)	    HTTP server
-ts-node-dev	            Hot-reloading for development
-Class Validator         Input validation
-Axios	                  Inter-service HTTP communication
-
 Backend Features
 CRUD for products (POST, GET, PUT, DELETE)
 CRUD for orders
@@ -30,15 +21,6 @@ Dynamic form rendering based on JSON configuration.
 All fields mandatory with strong validation.
 Beautiful, responsive Material UI layout.
 Data persisted using localStorage (simulating persistence).
-
-Frontend Technologies
-Technology	             Purpose
-Next.js	                 React framework for SSR and routing
-React Hook Form	         Form handling and validation
-TypeScript	             Strong typing and maintainability
-Material UI (MUI)	       Beautiful UI components
-LocalStorage	           Data persistence between reloads
-JSON-driven rendering    Dynamic form based on JSON schema
 
 Frontend Features
 Dynamic field rendering (TEXT, LIST, RADIO)
